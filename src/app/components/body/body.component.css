@@ -3,3 +3,43 @@
     width: 100%;
     max-height:510px;
 }
+.card{
+    border-top:10px solid black;
+    border-radius:0px;
+}
+.border-bottom{
+    border-bottom: 2px solid black !important;
+}
+.aboutimg{
+  width:100%;
+  max-height:400px;
+}
+/* for parallex image */
+section.module.parallax {
+  height: 500px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:yellow;
+}
+section.module.parallax-1 { background-image: url("../../../assets/Images/Slider/Lighthouse.jpg"); }
+.counter{
+  font-size: 70px;
+}
+.counterpara{
+  color:white;
+  font-size: 25px;
+}
+.whatsay{
+  color:#DF421E;
+}
+.whatsayimg{
+  width: 100%;
+  max-height:400px;
+}
+.whatsaycarousellist{
+  width:100px;
+  height:100px;
+  border-radius:50px; 
+}
