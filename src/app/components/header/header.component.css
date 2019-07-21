@@ -1,0 +1,9 @@
+/* navbar position */
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index:10;
+}
+.nav-bgcolor{
+    background-color:#f8f9fadb;
+}
