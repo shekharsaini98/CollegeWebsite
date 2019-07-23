@@ -9,6 +9,8 @@
     text-align: center;
 }
 .specialmember{
+  /* width:130px;
+  height:140px; */
   width:130px;
   height:140px;
 }
@@ -53,7 +55,7 @@
 }
 /* for parallex image */
 section.module.parallax {
-  height: 551px;
+  min-height: 551px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -64,11 +66,13 @@ section.module.parallax {
   background: rgba(4, 28, 85, 0.67);
   width: 100%;
   float: left;
-  height: 551px;
+  min-height: 551px;
   padding: 30px 0px;
   text-align: center;
 }
-section.module.parallax-1 { background-image: url("../../../assets/Images/facts-statistics/facts-and-stats.jpg"); }
+section.module.parallax-1 { 
+  background-image: url("../../../assets/Images/facts-statistics/facts-and-stats.jpg");min-height: 551px; 
+}
 .counter{
   font-size: 70px;
 }
@@ -156,7 +160,6 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
   transition: 0.5s;
   padding-top: 60px;
 }
-
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
@@ -165,11 +168,9 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
   display: block;
   transition: 0.3s;
 }
-
 .sidenav a:hover {
   color: #f1f1f1;
 }
-
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -205,5 +206,22 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
 }
 .importantlinksrow{
   background-color:lightgray;
-
+}
+/* media query (screen 768px) */
+@media only screen and (max-width: 1024px) {
+  .specialmember{
+    /* width:130px;
+    height:140px; */
+    max-width:95px;
+    max-height:105px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .specialmember{
+    width:130px;
+    height:140px;
+  }
+  section.module.parallax-1 { 
+    min-height: 1123px; 
+  }
 }
