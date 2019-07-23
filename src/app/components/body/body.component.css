@@ -79,6 +79,7 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
 /* quote carousel */
 .whatsay{
   color:#DF421E;
+  text-align: center;
 }
 .whatsayimg{
   width: 100%;
@@ -102,11 +103,46 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
   display: block;
   transition: all .4s ease-in;
 }
+.marginquote{
+  padding-bottom: 150px;
+  margin-top: 30px;
+  min-height:330px;
+}
+.sidepadd{
+  padding-left:8%;
+  padding-right:8%;
+  font-size: 17.5px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  line-height: 1.42857143;
+}
+.sidepaddquote{
+  padding-left:15%;
+  padding-right:15%;
+}
+.alumniname, .alumnidetail, .alumniyear{
+  margin: 0%;
+}
+.alumniname{
+  color:#051d59;
+  font-size: 18px;
+  font-weight: bold;
+}
+.alumnidetail, .alumniyear{
+  font-size:15px;
+  font-weight: 600;
+  color:#212529de;
+}
 .carousel-indicators li.active, .carousel-indicators li.active > img{
   width:100px;
   height:100px;
   border-radius:50px; 
 }
+.quoteindicatorsstyle{
+  color:gray;
+  font-size:48px;
+}
+
 /* QUICK LINKS SIDEBAR */
 .sidenav {
   height: 100%;
@@ -166,4 +202,8 @@ section.module.parallax-1 { background-image: url("../../../assets/Images/facts-
 .quicklinkhr{
   background-color: white;
   margin: 0%;
+}
+.importantlinksrow{
+  background-color:lightgray;
+
 }
