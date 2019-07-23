@@ -6,9 +6,46 @@
 .card{
     border-top:10px solid black;
     border-radius:0px;
+    text-align: center;
+}
+.specialmember{
+  width:130px;
+  height:140px;
+}
+.membername{
+  color:#ba4403;
+  font-weight:500;
+  font-size:17px;
+}
+.memberview{
+  background-color:white;
+  color:#0069D9;
+  border:1px solid #0069D9;
+  border-radius:0px;
+  font-size:16px;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .border-bottom{
     border-bottom: 2px solid black !important;
+}
+.aboutcolumn{
+  background-color:whitesmoke;
+  background-image: url('../../../assets/Images/about/about-section.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.abouthead{
+  color: #1B426E;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+.abouttagline{
+  font-size: 24px;
+  font-weight: normal;
+  color: #FF5916;
 }
 .aboutimg{
   width:100%;
@@ -16,14 +53,22 @@
 }
 /* for parallex image */
 section.module.parallax {
-  height: 500px;
+  height: 551px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   color:yellow;
 }
-section.module.parallax-1 { background-image: url("../../../assets/Images/Slider/Lighthouse.jpg"); }
+.parallexbrcolor{
+  background: rgba(4, 28, 85, 0.67);
+  width: 100%;
+  float: left;
+  height: 551px;
+  padding: 30px 0px;
+  text-align: center;
+}
+section.module.parallax-1 { background-image: url("../../../assets/Images/facts-statistics/facts-and-stats.jpg"); }
 .counter{
   font-size: 70px;
 }
